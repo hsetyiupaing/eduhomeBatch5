@@ -65,3 +65,10 @@ for single select
 ```html
 <input type = "radio">
 ```
+
+# Placeholder vs Value
+
+| Term           | Description |
+|----------------|-------------|
+| **Placeholder** | Temporary hint text inside an input box (disappears when user types). Example: `<input placeholder="Enter your name">` |
+| **Value**       | Actual pre-filled content inside an input box (editable and submitted). Example: `<input value="John Doe">` |
