@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+       #title{
+            text-align: center;
+        }
+
+        .field input{
+            display: block;
+            border: 1px solid black;
+            border-radius: 100px;
+            width: 250px;
+            height: 30px;
+            padding-left: 20px ;
+            margin-bottom: 20px;
+        }
+
+        .field label{
+            margin-left: 12px;
+        }
+
+        #submitButton{
+            padding: 10px 85px;
+            border-radius: 20px;
+            border: none;
+            background-color: rgb(84, 142, 231);
+            color: white;
+            font-weight: bold;
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="formdiv">
+        <h1 id="title">Login</h1>
+        <form action="">
+            <div class="field">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname">
+            </div>
+            <div class="field">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname">
+            </div>
+            <div class="field">
+                <label for="email">Email</label>
+                <input type="email" id="email">
+            </div>
+            <div class="field">
+                <label for="password">Password</label>
+                <input type="text" id="password">
+            </div>
+            <input type="submit" id="submitButton">
+        </form>
+    </div>
+</body>
+</html>
